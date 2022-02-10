@@ -1,0 +1,46 @@
+.toggle-input {
+    /* input 체크박스 가리기 */
+    display: none;
+}
+
+.toggle-input:checked+label {
+    /* 체크 시  배경색 */
+    background-color: rebeccapurple;
+}
+
+.toggle-input:checked+label>.ball {
+    /* 체크 시 원 색상 */
+    background: white;
+
+    /* 체크 시 이동 애니메이션 */
+    transform: translateX(30px);
+    transition: transform 0.2s linear;
+}
+
+.toggle-label {
+    /* 토글 버튼 */
+    width: 60px;
+    height: 30px;
+    background: #eee;
+    border-radius: 50px;
+
+    margin-bottom: 10px;
+
+    cursor: pointer;
+}
+
+.ball {
+    /* 색상 및 크기 */
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: white;
+
+    /* 볼 위치 */
+    position: relative;
+    top: 3px;
+    left: 3px;
+
+    /* 볼 이동 */
+    transition: transform 0.2s linear;
+}
