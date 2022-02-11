@@ -6,7 +6,7 @@ import ModalEle from './ModalEle';
 const Btn = styled.div`
     width: 140px;
     height: 60px;
-    background: cornflowerblue;
+    background: #4900ce;
     border-radius: 50px;
 
     color: white;
@@ -17,7 +17,7 @@ const Btn = styled.div`
     align-items: center;
 
     cursor: pointer;
-`
+`;
 
 function Modal () {
     const [showModal, setShowModal] = useState(false);
@@ -28,7 +28,7 @@ function Modal () {
 
     const closeModal = () => {
         setShowModal(false);
-    }
+    };
 
     return (
         <>
