@@ -5,7 +5,7 @@
 
 .toggle-input:checked+label {
     /* 체크 시  배경색 */
-    background-color: rebeccapurple;
+    background-color: cornflowerblue;
 }
 
 .toggle-input:checked+label>.ball {

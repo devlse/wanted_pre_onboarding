@@ -1,5 +1,5 @@
 .container {
-    width: 50vw;
+    width: 70vw;
     max-width: 500px;
 
     padding: 30px;
@@ -7,6 +7,16 @@
 
     border: 1px solid #eee;
     border-radius: 5px;
+    box-sizing: border-box;
 
     box-shadow: 1px 1px rgb(236, 236, 236);
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 60px;
 }

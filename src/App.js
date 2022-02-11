@@ -1,16 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Toggle from './component/Toggle';
+import Modal from './component/Modal'
 
 function App() {
   return (
     <>
       <Toggle />
-      {/* <Modal /> */}
-      {/* <Tab />
-      <Tag />
-      <AutoComplete />
-      <ClickToEdit /> */}
+      <Modal />
     </>
   );
 }
