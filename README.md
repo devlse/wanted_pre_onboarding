@@ -1,4 +1,4 @@
-# wanted_pre_onboarding
+# 원티드 프리온보딩 코스
 
 [🙆‍♀️ 프로젝트 구현 바로가기](https://devlse.github.io/wanted_pre_onboarding/)
 
