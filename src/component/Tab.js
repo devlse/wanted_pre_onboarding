@@ -5,7 +5,7 @@ import '../styles/common.css';
 const TabMenu = styled.ul`
     height: 45px;
     padding: 0;
-    margin-bottom: 30px;
+    margin: 30px 0;
 
     background: #eee;
     color: #333;

@@ -53,7 +53,7 @@ function ModalEle (props) {
                 <Background onClick={closeModal}>
                     <ModalContainer onClick={e => e.stopPropagation()}>
                         <CloseIcon onClick={closeModal} />
-                        <p>HELLO CODESTATES!</p>
+                        <p>HELLO WORLD!</p>
                     </ModalContainer> 
                 </Background> : null
         }
