@@ -5,7 +5,7 @@ import '../styles/common.css';
 const TabMenu = styled.ul`
     height: 45px;
     padding: 0;
-    margin: 30px 0;
+    margin: 30px 0 0 0;
 
     background: #eee;
     color: #333;
@@ -41,7 +41,7 @@ const TabMenu = styled.ul`
 
 const Contents = styled.div`
     text-align: center;
-    padding: 50px;
+    padding: 150px;
     box-sizing: border-box;
 `;
 
@@ -71,7 +71,7 @@ function Tab () {
     return (
         <>
             <div className='container'>
-                <b>Tab</b>
+                <div className='common-title'>Tab</div>
                 <TabMenu>
                     {tabArr.map((el, idx) => {
                         return <li key={idx}

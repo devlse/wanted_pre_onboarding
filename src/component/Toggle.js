@@ -8,7 +8,7 @@ function Toggle () {
     return (
         <>
             <div className='container'>
-                <b>Toggle</b>
+                <div className='common-title'>Toggle</div>
                 <div className='wrap'>
                     <input
                         className='toggle-input'

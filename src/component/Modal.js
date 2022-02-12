@@ -33,7 +33,7 @@ function Modal () {
     return (
         <>
             <div className='container'>
-                <b>Modal</b>
+                <div className='common-title'>Modal</div>
                 <div className='wrap'>
                     <Btn onClick={openModal}><p>Open Modal</p></Btn>
                     <ModalEle showModal={showModal} closeModal={closeModal} />

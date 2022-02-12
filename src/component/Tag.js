@@ -91,7 +91,7 @@ function Tag () {
     return (
         <>
             <div className='container'>
-                <b>Tag</b>
+                <div className='common-title'>Tag</div>
                 <div className="wrap">
                     <TagsInput>
                         <ul id="tags">
